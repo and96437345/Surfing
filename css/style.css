@@ -80,7 +80,7 @@ body {
 }
 
 
-.hero {}
+/* .hero {} */
 
 .hero__row {
     display: flex;
@@ -96,9 +96,7 @@ body {
     width: 49.2%;
 
 }
-
-
-.hero__ {}
+/* 
 
 .hero__ {}
 
@@ -108,7 +106,9 @@ body {
 
 .hero__ {}
 
-.offer {}
+.hero__ {}
+
+.offer {} */
 
 .offer__link {
     display: flex;
