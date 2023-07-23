@@ -531,7 +531,7 @@ body {
 
 
 .packages {
-    padding: 110px 0 80px;
+    padding: 110px 0 163px;
 }
 
 .packages-item__row {
@@ -572,6 +572,14 @@ body {
     margin: 17px 0;
 }
 
+.counter-01 {
+    background-color: #ACD3EC;
+}
+.counter-02 {
+    background-color: #A6B2F2;
+    margin-top: 110px;
+}
+
 .packages-item__subtitle {
     color: #1D1D1D;
     font-family: Manrope;
@@ -580,4 +588,117 @@ body {
     font-weight: 400;
     line-height: normal;
     margin: 30px 0 5px;
+}
+
+.last__section-title {
+    margin: 0 auto 80px;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.last__section-desc {
+    background-color: #E7EBFD;
+    color: #121212;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 132px;
+}
+
+.last__section-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.last__section-item {
+    max-width: 200px;
+    margin-bottom: 202px;
+    text-align: center;
+
+}
+
+.last__section-item a {
+    color: #101010;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 180%; /* 25.2px */
+}
+
+.footer {
+    background-color: #EFEFEF;
+}
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 116px;
+    padding-top: 87px;
+}
+.footer__row-sidebar {
+    margin-right: 141px;
+    width: 80%;
+}
+.footer__row-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer__menu-items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sidebar__title {
+    color: #141414;
+    font-family: Roboto;
+    font-size: 39px;
+    font-weight: 400;
+    margin-bottom: 138px;
+}
+.sidebar__content-item {
+    color: #162C40;
+
+font-size: 14px;
+
+font-weight: 400;
+line-height: 150%; /* 21px */
+letter-spacing: 0.2px;
+}
+
+.sidebar__content-item + .sidebar__content-item {
+    margin-top: 13px;
+}
+.footer__title-link {
+    color: #162C40;
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 100%; /* 16px */
+}
+.footer__menu-title {
+    margin-bottom: 35px;
+}
+.footer__menu-link {
+    color: #162C40;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 100%; /* 14px */
+}
+.footer__menu-item + .footer__menu-item {
+    margin-top: 20px;
+}
+.footer__menu-items + .footer__menu-items {
+    margin-left: 30px;
+}
+.footer__row-aside {
+    color: #8A8A8A;
+font-size: 14px;
+font-weight: 400;
+line-height: 180%; /* 25.2px */
+text-align: center;
+padding-bottom: 78px;
 }
