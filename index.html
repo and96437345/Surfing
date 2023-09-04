@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
+    <link rel="stylesheet" href="css/slick.css"><link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -54,7 +54,7 @@
         </div>
     </header>
     <main class="main">
-        <div class="container container--big">
+        <div class="container">
             <div class="hero">
                 <div class="hero__row">
                     <div class="hero__left">
@@ -94,14 +94,17 @@
                     </div>
                     <div class="hero__right">
                         <div class="slider" style="background-image: url(images/hero/3.jpg);">
-                            <!-- <img src="images/hero/3.jpg" alt="" class="slider__image"> -->
-                            <div class="slider__pagination pagination">
+                            <img src="images/hero/3.jpg" alt="" class="slider__image">
+                            <img src="images/hero/3.jpg" alt="" class="slider__image">
+                            <img src="images/hero/3.jpg" alt="" class="slider__image">
+                            <img src="images/hero/3.jpg" alt="" class="slider__image">
+                            <!-- <div class="slider__pagination pagination">
                                 <div class="pagination__item pagination__item--active"></div>
                                 <div class="pagination__item"></div>
                                 <div class="pagination__item"></div>
                                 <div class="pagination__item"></div>
 
-                            </div>
+                            </div> -->
                         </div>
 
                     </div>
@@ -110,119 +113,166 @@
         </div>
         <div class="man">
             <div class="container">
+
+                <img src="images/man.png" alt="" class="man__image">
                 <div class="man__content">
                     <h2 class="title man__title">Zacky Yondaime</h2>
                     <div class="undertitle man__undertitle">athlete</div>
-                    <div class="desc">I am very happy with</div>
-
+                    <div class="desc man__desc">I am very happy with the complete package service provided by this
+                        surfer, just don't disappoint</div>
                 </div>
             </div>
         </div>
+
         <div class="places">
-            <div class="places__content">
-                <h2 class="title places__title"></h2>
-                <div class="desc places__desc"></div>
+            <div class="container">
+                <div class="places__content">
+                    <h2 class="title places__title">Find us only in these places</h2>
+                    <div class="desc places__desc">we are already present in various parts of the world in strategic
+                        beach locations for all of you</div>
                     <form class="form places__form">
-                    <input type="text" class="form__input" placeholder="">
-                    <svg class="icon icon__arrow">
-                    </svg>
-                    <input type="text" class="form__input" placeholder="">
-                    <button class="form__button">
+                        <input type="text" placeholder="Pickup Location" class="form__input">
 
-                    </button>
-                </form>
-            </div>
-            <div class="places__map map">
-                <img src="images/Map.png" alt="" class="map__image">
-                <a href="#" class="map-item map-item--1">
-                    <div class="map-item__value">
-                        4
-                    </div>
-                    <div class="map-item__region">
-                        <div class="map-item__name">
-                            America
-                        </div>
-                        <svg class="icon icon-arrow-down map-item__icon">
+                        <svg class="icon icon-arrow-down form__icon">
                             <use xlink:href="#icon-arrow-down"></use>
                         </svg>
-                    </div>
-                </a>
-                <a href="#" class="map-item map-item--2">
-                    <div class="map-item__value">
-                        4
-                    </div>
-                    <div class="map-item__region">
-                        <div class="map-item__name">
-                            America
+
+                        <input type="text" placeholder="Destination Location" class="form__input">
+
+                        <button class="form__button">
+
+                        </button>
+                    </form>
+                </div>
+
+
+                <div class="places__map map">
+                    <img src="images/map.png" alt="" class="map__image">
+                    <a href="#" class="map-item map-item--1">
+                        <div class="map-item__value">
+                            4
                         </div>
-                       
-                        <svg class="icon icon-arrow-down map-item__icon">
-                            <use xlink:href="#icon-arrow-down"></use>
-                        </svg>
-                    </div>
-                </a>
-                <a href="#" class="map-item map-item--3">
-                    <div class="map-item__value">
-                        4
-                    </div>
-                    <div class="map-item__region">
-                        <div class="map-item__name">
-                            America
+                        <div class="map-item__region">
+                            <div class="map-item__name">
+                                America
+                            </div>
+                            <svg class="icon icon-arrow-down map-item__icon">
+                                <use xlink:href="#icon-arrow-down"></use>
+                            </svg>
                         </div>
-                        <svg class="icon icon-arrow-down map-item__icon">
-                            <use xlink:href="#icon-arrow-down"></use>
-                        </svg>
-                    </div>
-                </a>
-                <a href="#" class="map-item map-item--4">
-                    <div class="map-item__value">
-                        4
-                    </div>
-                    <div class="map-item__region">
-                        <div class="map-item__name">
-                            America
+
+                    </a>
+                    <a href="#" class="map-item map-item--2">
+                        <div class="map-item__value">
+                            4
                         </div>
-                        <svg class="icon icon-arrow-down map-item__icon">
-                            <use xlink:href="#icon-arrow-down"></use>
-                        </svg>
-                    </div>
-                </a>
+                        <div class="map-item__region">
+                            <div class="map-item__name">
+                                America
+                            </div>
+                            <svg class="icon icon-arrow-down map-item__icon">
+                                <use xlink:href="#icon-arrow-down"></use>
+                            </svg>
+                        </div>
+
+                    </a>
+                    <a href="#" class="map-item map-item--3">
+                        <div class="map-item__value">
+                            4
+                        </div>
+                        <div class="map-item__region">
+                            <div class="map-item__name">
+                                America
+                            </div>
+                            <svg class="icon icon-arrow-down map-item__icon">
+                                <use xlink:href="#icon-arrow-down"></use>
+                            </svg>
+                        </div>
+
+                    </a>
+                    <a href="#" class="map-item map-item--4">
+                        <div class="map-item__value">
+                            4
+                        </div>
+                        <div class="map-item__region">
+
+                            <div class="map-item__name">
+                                America
+                            </div>
+                            <svg class="icon icon-arrow-down map-item__icon">
+                                <use xlink:href="#icon-arrow-down"></use>
+                            </svg>
+                        </div>
+
+                    </a>
+                </div>
+
+
+
             </div>
         </div>
 
-        <div class="container">
-            <div class="packages">
-                <div class="packages__item-up">
-                    <div class="packages__item-upleft">
-                        <img src="images/Ship.jpg" alt="">
-                    </div>
-                    <div class="packages__item-upright">
-                        <h2>Best Packages</h2>
-                        <span class="subtittle">there are 2 packages for you</span>
-                        <button class="o__1">O1</button>
-                        <span class="desc">Accompanied by a professional
-                            tour guide</span>
-                            <span class="subtittle">Our professional tour guide will tell you about the
-                                Beach and the nation</span>
+        <div class="packages">
+            <div class="container">
+                <div class="packages-item">
+                    <div class="packages-item__row">
+                        <div class="packages-item__image packages-item__image--left">
+                            <img src="images/packimage.jpg" alt="">
+                        </div>
+                        <div class="packages-item__content">
+                            <h2 class="title packages-item__title">
+                                Best Packages
+                            </h2>
+                            <div class="desc packages-item__desc">
+                                there are 2 packages for you
+                            </div>
+                            <div class="packages-item__counter">
+                                01
+                            </div>
+                            <div class="packages-item__subtitle">
+                                Accompanied by a professional
+                                tour guide
+                            </div>
+                            <div class="desc packages-item__desc">
+                                Our professional tour guide will tell you about the
+                                Beach and the nation
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="packages__item-down">
-                    <div class="packages__item-downleft">
-                        <h2>Best Packages</h2>
-                        <span class="subtittle">there are 2 packages for you</span>
-                        <button class="o__2">O1</button>
-                        <span class="desc">Shuttles by plane
-                </span>
-                            <span class="subtittle">Our professional tour guide will tell you about the
-                                Beach and the nation</span>
-                    </div>
-                    <div class="packages__item-downright">
-                        <img src="images/Aircraft.jpg" alt="">
+                <div class="packages-item">
+                    <div class="packages-item__row">
+
+                        <div class="packages-item__content">
+                            <h2 class="title packages-item__title">
+                                Best Packages
+                            </h2>
+                            <div class="desc packages-item__desc">
+                                there are 2 packages for you
+                            </div>
+                            <div class="packages-item__counter">
+                                01
+                            </div>
+                            <div class="packages-item__subtitle">
+                                Accompanied by a professional
+                                tour guide
+                            </div>
+                            <div class="desc packages-item__desc">
+                                Our professional tour guide will tell you about the
+                                Beach and the nation
+                            </div>
+                        </div>
+                        <div class="packages-item__image packages-item__image--right">
+                            <img src="images/packimage.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="script/slick.js"></script>
+    <script src="script.js"></script>
 </body>
 
 
